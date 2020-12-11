@@ -1,0 +1,391 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(252, 252, 240);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 10px;
+  background-color: rgb(2, 13, 112);
+  width: 100%;
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.footer p {
+  font-family: Georgia;
+  font-size: 16px;
+  color: rgb(248, 250, 162);
+}
+
+/* HOME */
+
+.menu-bg {
+  background-color: rgb(2, 13, 112);
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu a {
+  font-size: 24px;
+  text-decoration: none;
+  color: rgb(248, 250, 162);
+  padding: 10px;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+/* NOTÍCIAS */
+
+h1 {
+  color: rgb(2, 13, 112);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 30px;
+  text-decoration: underline;
+}
+
+h2 {
+  color: rgb(2, 13, 112);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.noticia1,
+.noticia2,
+.noticia3,
+.noticia4,
+.noticia5,
+.noticia6 {
+  border: 5px solid rgb(2, 13, 112);
+  padding-bottom: 50px;
+  color: rgb(2, 13, 112);
+  font-family: georgia, verdana, helvetica;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 50px 50px 50px;
+  margin: 0 100px 0 100px;
+  margin-bottom: 60px;
+}
+
+.sintomas {
+  width: 400px;
+  height: 400px;
+}
+
+div .img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+  text-align: center;
+  margin-right: 195px;
+  margin-left: 200px;
+}
+
+.youtube {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-right: 195px;
+  margin-left: 200px;
+}
+
+.spotify {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  margin-right: 195px;
+  margin-left: 200px;
+}
+
+.quadro6 {
+  margin-bottom: 120px;
+}
+
+/* SOBRE */
+
+.nome,
+.apresentacao,
+.img,
+h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#eu {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 5px solid rgb(2, 13, 112);
+}
+
+.apresentacao p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  width: 550px;
+  font-size: 20px;
+  line-height: 2rem;
+  color: rgb(2, 13, 112);
+}
+
+.rede {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+h3 {
+  font-size: 24px;
+  color: rgb(2, 13, 112);
+}
+.rede p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.rede a {
+  color: rgb(2, 13, 112);
+}
+
+/* Página CONTATO */
+
+.form {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 80px;
+}
+.form label,
+button {
+  display: flex;
+}
+
+input,
+button {
+  width: 200px;
+  padding: 10px;
+}
+
+button {
+  border: none;
+  background-color: rgb(2, 13, 112);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.1rem;
+  color: rgb(248, 250, 162);
+  padding-left: 15px;
+}
+
+input {
+  border: solid 2px rgb(2, 13, 112);
+  background-color: rgb(248, 250, 162);
+  margin-bottom: 25px;
+}
+
+label {
+  color: rgb(2, 13, 112);
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.email_contato {
+  color: rgb(2, 13, 112);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.email_endereco p {
+  color: rgb(2, 13, 112);
+  margin-top: 30px;
+}
+.contato {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  margin: -300px 0 0 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.email_contato,
+.email_endereco {
+  margin-bottom: -10px;
+}
+
+.form,
+.contato {
+  margin-left: 250px;
+  text-align: center;
+}
+
+@media (max-width: 1072px) {
+  .contato {
+    margin: -10px;
+    margin-top: -40px;
+    margin-bottom: 120px;
+  }
+
+  .form {
+    margin: 10px 0 0 60px;
+  }
+}
+
+/* Página SAIBA MAIS */
+
+.fontes p {
+  font-weight: bold;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(2, 13, 112);
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.fontes h3 {
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+  font-size: 22px;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.linkFonte {
+  color: rgb(2, 13, 112);
+  text-decoration: none;
+}
+
+.fontes {
+  margin-bottom: 150px;
+}
+
+.fontes p {
+  color: rgb(2, 13, 112);
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.fonte1,
+.fonte2,
+.fonte3,
+.fonte4,
+.fonte5 {
+  border-bottom: dotted 2px rgb(2, 13, 112);
+}
+
+/* responsivo */
+@media (max-width: 900px) {
+  .sintomas,
+  .vacina {
+    width: 300px;
+    height: 300px;
+  }
+
+  .youtube {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .youtube {
+    width: 400px;
+    height: 300px;
+    margin: 0 20px 0 20px;
+  }
+
+  @media (max-width: 630px) {
+    .youtube {
+      width: 330px;
+      height: 150px;
+      margin-bottom: 150px;
+    }
+    .menu ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .menu ul li {
+      padding: 10px;
+    }
+
+    .spotify iframe {
+      margin-top: -160px;
+    }
+    .noticia1,
+    .noticia2,
+    .noticia3,
+    .noticia4,
+    .noticia5,
+    .noticia6 {
+      border: none;
+      border-bottom: 3px solid rgb(2, 13, 112);
+      padding-bottom: 50px;
+      color: rgb(2, 13, 112);
+      font-family: georgia, verdana, helvetica;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0 50px 50px 50px;
+      margin: 0 10px 0 10px;
+      margin-bottom: 60px;
+    }
+    .footer p {
+      padding-left: -15px;
+      font-size: 14px;
+    }
+    .form label,
+    input {
+      margin-left: -70px;
+    }
+    img#eu {
+      margin-right: 25px;
+    }
+  }
+}
+@media (max-width: 375px) {
+  img#eu {
+    margin-right: 65px;
+  }
+}
